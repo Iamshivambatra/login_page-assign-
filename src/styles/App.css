@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 1px #007bff;
+}
+
+/* Button Styles */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Navbar Styles */
+nav {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #0056b3;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #0056b3;
+}
+
+/* Nav Message Styles */
+.nav-message {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.nav-message a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: 600;
+  transition: text-decoration 0.3s ease;
+}
+
+.nav-message a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background: #007bff;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 2px solid #0056b3;
+}
+
+/* Layout Styles */
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
